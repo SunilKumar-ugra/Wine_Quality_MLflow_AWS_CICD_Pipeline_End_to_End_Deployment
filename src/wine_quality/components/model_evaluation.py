@@ -8,6 +8,7 @@ import numpy as np
 import joblib
 from wine_quality.utils import save_json
 from wine_quality.entity import ModelEvaluationConfig
+from pathlib import Path
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
