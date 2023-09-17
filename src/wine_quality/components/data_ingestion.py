@@ -3,7 +3,7 @@ import urllib.request as request
 import zipfile
 from wine_quality import logger
 from wine_quality.utils import get_size
-from wine_quality.config import DataIngestionConfig
+from wine_quality.entity import DataIngestionConfig
 from pathlib import Path
 
 
